@@ -1,0 +1,23 @@
+{
+  "name": "sporty",
+  "version": "1.0.0",
+  "description": "SportY sports managment app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omergadot/SportY.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omergadot/SportY/issues"
+  },
+  "homepage": "https://github.com/omergadot/SportY#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
