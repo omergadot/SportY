@@ -1,5 +1,6 @@
 var express = require("express");
  
+var portNum = 8080;
  //use the application off of express.
  var app = express();
  
@@ -13,6 +14,6 @@ app.use(express.static(__dirname)); //Serves resources from public folder
  });
  
  //start the server
- app.listen(8080);
+ app.listen(portNum);
  
- console.log("Something awesome to happen at http://localhost:8080");
+ console.log("Server is live and running at port : " + portNum);
