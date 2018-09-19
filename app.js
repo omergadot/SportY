@@ -13,6 +13,6 @@ app.use(express.static(__dirname)); //Serves resources from public folder
  });
  
  //start the server
- app.listen(8080);
+ app.listen(3457);
  
- console.log("Something awesome to happen at http://localhost:8080");
+ console.log("Something awesome to happen at http://localhost:3457");
