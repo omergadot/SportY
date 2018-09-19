@@ -1,5 +1,6 @@
 <html>
-    <head>
+
+<head>
     <meta charset="UTF-8">
 
     <script src="js/bootstrap.min.js"></script>
@@ -17,23 +18,63 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body bgcolor="#E6E6FA">
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="navbar-nav mr-auto">
+                <a class="navbar-brand ml-auto" href="#">SportY</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </ul>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#ourowners">מי אנחנו</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ourcustomers">מבין לקוחותינו</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ourservices">מבין שירותינו</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ourcompany">קצת עלינו</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+
+
     <center>
-        <img src="SportyAppLogo1.png" width="80%" height="50%">
+        <img src="SportyAppLogo1.png" width="75%" height="50%">
     </center>
-    
+
     <br>
     <div class="container">
-        <h5 align="right">קצת עלינו</h5>
+        <h5 align="right" id="ourcompany">קצת עלינו</h5>
         <hr>
         <div>
             <center>
                 <h6>
+                    החברה נוסדה בשנת 2017 ע"י אלי גדות
+                    <br>
+                    <br>
                     .החברה עוסקת במתן שירותים מחשוביים לתחרויות ספורט, ונועדה להקל על חיי מארגני התחרות
                     <br>
 
                     !החל מהשלב של ההרשמה למערכת, לשלב של סידור שלבי וזמני התחרות, ועד לשלב פרסום התוצאות
 
+                    <br>
+                    <br>
+
+                    .למעשה המערכת מהווה כלי ניהולי לתחרות ספורט, המשתמש מזין פרטים במערכת, ולאחר מכן התוכנה מחשבת את מהלך התחרות
+                    <br>
+                    התוכנה מנהלת ללקוח את כל מערך התחרות ומסירה ממנו כל אחריות שהיא בניהול של היום בכל תחום
                     <br>
                     <br>
                 </h6>
@@ -43,44 +84,45 @@
     </div>
 
     <div class="container">
-        <h5 align="right">מבין שירותינו</h5>
+        <h5 align="right" id="ourservices">מבין שירותינו</h5>
         <hr>
 
-        <div class="card text-center">
+        <div class="card border-Light text-center text-white">
             <div class="card-body">
                 <h2 class="card-title">הרשמה מסודרת</h2>
                 <p class="card-text">תהליך ההרשמה מתבצע בצורה מסודרת ומאורגנת דרך אתר פשוט</p>
-                <a class="btn btn-success">אני צריך את זה</a>
+                <a class="btn btn-success custbtn">אני צריך את זה</a>
             </div>
         </div>
-        
-        <div class="card text-center">
+
+        <div class="card border-Light text-center text-white">
             <div class="card-body">
                 <h2 class="card-title">סידור זמנים</h2>
                 <p class="card-text">המערכת יודעת לנהל את זמני התחרות בצורה אולטימטיבית ומדויקת</p>
-                <a class="btn btn-success">אני רוצה את זה</a>
+                <a class="btn btn-success custbtn">אני רוצה את זה</a>
             </div>
         </div>
-        
-        <div class="card text-center">
+
+        <div class="card border-Light text-center text-white">
             <div class="card-body">
                 <h2 class="card-title">הגרלת משחקים</h2>
                 <p class="card-text">המערכת יודעת להגריל משחקים בצורה נכונה ולארגן את מקצי התחרות כולל כל השלבים</p>
-                <a class="btn btn-success">אני חייב את זה</a>
+                <a class="btn btn-success custbtn">אני חייב את זה</a>
             </div>
-        </div>  
+        </div>
 
     </div>
 
     <div class="container">
-        <h5 align="right">מבין לקוחותינו</h5>
+        <h5 align="right" id="ourcustomers">מבין לקוחותינו</h5>
         <hr>
     </div>
 
     <div class="container">
-        <h5 align="right">מי אנחנו</h5>
+        <h5 align="right" id="ourowners">מי אנחנו</h5>
         <hr>
     </div>
 
 </body>
+
 </html>
