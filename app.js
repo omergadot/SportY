@@ -17,3 +17,4 @@ app.use(express.static(__dirname)); //Serves resources from public folder
  app.listen(portNum);
  
  console.log("Server is live and running at port : " + portNum);
+
